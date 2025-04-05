@@ -5,7 +5,7 @@ public class App {
         Deck deck = new Deck();
         deck.shuffle();
 
-        // Correct class name: Player (not Players)
+        
         Player player1 = new Player("Player 1");
         Player player2 = new Player("Player 2");
 
@@ -19,7 +19,7 @@ public class App {
         for (int round = 1; round <= 26; round++) {
             System.out.println("\n--- Round " + round + " ---");
 
-            // Use Card type (not Object)
+           
             Card card1 = player1.flip();
             Card card2 = player2.flip();
 
